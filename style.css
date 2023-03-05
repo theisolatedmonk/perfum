@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: hsl(30, 38%, 92%);
+    height: 100vh;
+    display: flex;
+    /* display: grid; */
+    /* justify-items: center; */
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+}
+
+.mainbox {
+    /* background: yellow; */
+    /* display: flex; */
+    /* width: 600px; */
+    width: 550px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.box1 {
+    /* background: red; */
+    /* border: solid black; */
+}
+
+.box1>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: hsl(0, 0%, 100%);
+    /* border: solid blue; */
+    padding: 30px;
+}
+
+.line1 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(79, 95, 80);
+    font-size: 12px;
+    letter-spacing: .3rem;
+}
+
+.line2 {
+    color: hsl(212, 21%, 14%);
+    font-family: "Fraunces", serif;
+    font-size: 35px;
+}
+
+.para {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.line3 {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.price1 {
+    font-family: "Fraunces", serif;
+    font-size: 35px;
+    color: hsl(158, 36%, 37%);
+    line-height: .7rem;
+    /* background: blue; */
+}
+
+.price2 {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.button>svg {
+    /* border: solid black 2px; */
+}
+
+.button {
+    justify-content: center;
+    display: flex;
+    background-color: hsl(158, 36%, 37%);
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    gap: 4px;
+}
+
+.button>img {
+    /* display: flex; */
+}
+
+.lastline {}
